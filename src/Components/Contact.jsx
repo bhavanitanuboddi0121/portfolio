@@ -48,6 +48,21 @@ export default function Contact() {
       userId: userID,
     } = siteContent.contact.emailjs
 
+    if (![serviceID, templateID, userID].every(Boolean)) {
+      const recipient = siteContent.contact.contactItems.find((item) => item.label === 'Email')?.value
+      const subject = encodeURIComponent(`Portfolio message from ${form.name}`)
+      const body = encodeURIComponent(`${form.message}\n\nReply to: ${form.email}`)
+
+      window.location.href = `mailto:${recipient}?subject=${subject}&body=${body}`
+      setForm(initialForm)
+      setFeedback({
+        type: 'success',
+        message: siteContent.contact.form.successMessage,
+      })
+      setIsSending(false)
+      return
+    }
+
     try {
       await emailjs.sendForm(serviceID, templateID, event.target, userID)
       setForm(initialForm)

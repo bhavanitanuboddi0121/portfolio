@@ -1,14 +1,16 @@
 {
   "site": {
-    "name": "Anushka Isuranga",
-    "pronoun": "he/him",
-    "role": "Full-Stack Software Engineer",
-    "location": "Matale, Sri Lanka",
-    "locationLabel": "Full-stack engineer building scalable web systems",
-    "footerLocation": "Matale / Sri Lanka",
-    "availability": "Open to full-time roles, and technical collaborations",
-    "resumeUrl": "https://drive.google.com/file/d/1YLrJRjw-5h3Ytc1cRK1eyC3AzJbvg8Df/view?usp=sharing",
-    "coreLanes": ["web", "backend", "mobile"]
+    "name": "Bhavani Tanuboddi",
+    "initials": "BT",
+    "pronoun": "not specified",
+    "role": "App Engineer | AI & Cloud Solutions",
+    "location": "Hyderabad, India",
+    "locationLabel": "App engineer building AI automation and cloud-native systems",
+    "footerLocation": "Hyderabad / India",
+    "availability": "Building AI automation and cloud-native products at Egen",
+    "resumeUrl": "./Resume_Bhavani.pdf",
+    "portraitProvided": false,
+    "coreLanes": ["AI automation", "cloud", "full-stack"]
   },
   "navigation": [
     { "id": "hero", "label": "Home" },
@@ -23,38 +25,20 @@
     {
       "id": "github",
       "label": "GitHub",
-      "href": "https://github.com/AnushkaIsuranga",
+      "href": "https://github.com/bhavani0121",
       "iconKey": "github"
     },
     {
       "id": "linkedin",
       "label": "LinkedIn",
-      "href": "https://www.linkedin.com/in/anushka-isuranga/",
+      "href": "https://www.linkedin.com/in/bhavani-tanuboddi/",
       "iconKey": "linkedin"
-    },
-    {
-      "id": "medium",
-      "label": "Medium",
-      "href": "https://medium.com/@isuranga880",
-      "iconKey": "medium"
-    },
-    {
-      "id": "instagram",
-      "label": "Instagram",
-      "href": "https://www.instagram.com/aka_andy_780/",
-      "iconKey": "instagram"
-    },
-    {
-      "id": "whatsapp",
-      "label": "WhatsApp",
-      "href": "https://wa.me/+94771732201",
-      "iconKey": "whatsapp"
     }
   ],
   "hero": {
-    "kicker": "Building full-stack products with cleaner structure and stronger frontend craft",
-    "headline": "Anushka Isuranga",
-    "intro": "I build software that feels professional in both code and presentation: clear interfaces, dependable flows, and product decisions that make sense to the people using them.",
+    "kicker": "AI automation, cloud platforms, and production engineering",
+    "headline": "Bhavani Tanuboddi",
+    "intro": "I build intelligent, cloud-native applications that turn complex workflows into reliable products. My experience spans AI agents, full-stack systems, geospatial applications, enterprise integrations, and production delivery on Google Cloud.",
     "ctaButtons": [
       {
         "label": "View selected work",
@@ -70,506 +54,318 @@
       },
       {
         "label": "Download CV",
-        "href": "https://drive.google.com/file/d/1YLrJRjw-5h3Ytc1cRK1eyC3AzJbvg8Df/view?usp=sharing",
+        "href": "./Resume_Bhavani.pdf",
         "variant": "secondary",
         "iconKey": "download",
         "external": true
       }
     ],
-    "heroSocialLinkIds": ["linkedin", "github", "medium"],
+    "heroSocialLinkIds": ["linkedin", "github"],
     "quickFacts": [
       {
         "label": "Current role",
-        "value": "Software Engineer Intern",
-        "detail": "Shipping production-facing features at Bitzify."
+        "value": "App Engineer",
+        "detail": "Building AI automation products at Egen."
       },
       {
         "label": "Core stack",
-        "value": "Spring Boot, ASP.NET, Python",
-        "detail": "Backend systems with AI/ML applications."
+        "value": "Python, Java, Angular",
+        "detail": "AI agents, Spring Boot APIs, and production web applications."
       },
       {
         "label": "Location",
-        "value": "Matale, Sri Lanka",
-        "detail": "Open to SE roles & freelance work."
+        "value": "Hyderabad, India",
+        "detail": "Cloud and application engineering experience since 2021."
       }
     ],
     "focusAreas": [
       {
-        "title": "Frontend structure",
-        "text": "Readable UI systems, cleaner spacing, and components that scale without feeling heavy."
+        "title": "AI automation",
+        "text": "Agentic workflows, document intelligence, gap analysis, and context-aware content generation."
       },
       {
-        "title": "Product delivery",
-        "text": "Interfaces shaped around the actual workflow instead of just visual decoration."
+        "title": "Cloud delivery",
+        "text": "Scalable applications on Google Cloud with Cloud Run, Cloud Build, Docker, and CI/CD."
       },
       {
-        "title": "Scalable Backend Systems",
-        "text": "Building REST APIs with Spring Boot and ASP.NET, managing databases, and designing systems that grow without technical debt."
+        "title": "Full-stack engineering",
+        "text": "Angular frontends, Spring Boot services, REST APIs, integrations, and production reliability."
       }
     ],
     "bestFitLabel": "Best fit",
-    "bestFitText": "Teams that want a portfolio-style frontend mindset backed by practical delivery, review discipline, and clear communication.",
+    "bestFitText": "AI platform, cloud application, backend, and full-stack engineering teams solving real operational problems.",
     "proofLabels": {
-      "caseStudies": "featured case studies",
-      "liveDemos": "live demos available",
+      "caseStudies": "featured research case study",
+      "liveDemos": "published technical reference",
       "coreLanesPrefix": "core lanes across",
-      "workStart": "entered production-facing engineering work"
+      "workStart": "entered professional engineering"
     }
   },
   "about": {
-    "title": "Full-Stack Systems and AI-Driven Solutions.",
-    "copy": "Computer Science student with AI specialization focused on building full-stack applications and intelligent systems. I design scalable backend services, cloud-deployed platforms, and data-driven solutions. My work combines software engineering discipline with machine learning applications—from REST APIs and database architecture to predictive models and IoT systems. Currently contributing to production systems at Bitzify.",
+    "title": "AI automation backed by production engineering.",
+    "copy": "App Engineer at Egen with experience delivering AI-powered automation, enterprise web applications, cloud deployments, and service integrations. I pair Python and Java engineering with Google Cloud infrastructure, Angular interfaces, and a practical focus on measurable outcomes. I hold a B.Tech in Electronics and Communication Engineering from IIIT Sri City with an 8.92/10 GPA.",
     "principles": [
       {
-        "title": "Scalable Backend Systems",
-        "text": "Building robust REST APIs with Spring Boot and ASP.NET, designing databases that grow with the business, and implementing cloud-native architectures.",
-        "iconKey": "building"
-      },
-      {
-        "title": "AI & Machine Learning",
-        "text": "Integrating predictive models, data analysis, and intelligent decision-making into full-stack applications. Experience with Python, scikit-learn, and real-world ML deployment.",
+        "title": "Intelligent automation",
+        "text": "Designing agent workflows and document pipelines that reduce repetitive work while preserving context and accuracy.",
         "iconKey": "brain"
       },
       {
-        "title": "Production-Ready Code",
-        "text": "Writing maintainable systems with proper testing, documentation, and CI/CD pipelines. Focus on engineering discipline and long-term maintainability.",
+        "title": "Cloud-native delivery",
+        "text": "Building and operating scalable services with Google Cloud, Docker, Cloud Run, Cloud Build, and CI/CD.",
+        "iconKey": "building"
+      },
+      {
+        "title": "Production reliability",
+        "text": "Modernizing systems, improving test coverage, and integrating secure enterprise platforms for dependable delivery.",
         "iconKey": "gears"
       }
     ],
     "highlightLabels": {
-      "projects": "featured builds across healthcare, operations, media, and IoT",
+      "projects": "featured IEEE research project",
       "coreLanesPrefix": "main lanes:",
-      "workStart": "entered production-facing engineering work"
+      "workStart": "entered professional engineering"
     },
     "capabilities": [
-      "Building scalable REST APIs and backend services with Spring Boot, ASP.NET, and Node.js.",
-      "Designing database systems and data pipelines for production applications.",
-      "Developing machine learning models and integrating AI into full-stack systems.",
-      "Deploying cloud-based applications on AWS and Azure with containerization and CI/CD automation.",
-      "Creating full-stack applications that combine sophisticated backend logic with clean frontend architecture."
+      "Building AI agents and intelligent document workflows with Python, ADK, Gemini, and Google Drive APIs.",
+      "Developing Angular and Spring Boot applications with RESTful APIs and secure enterprise access patterns.",
+      "Deploying containerized workloads through Google Cloud, Cloud Run, Cloud Build, and CI/CD pipelines.",
+      "Integrating ServiceNow, Dialogflow CX, Discovery Engine, Google Maps, ArcGIS, and DeckGL.",
+      "Designing machine-learning systems for classification, forecasting, and real-time IoT monitoring."
     ],
     "priorities": [
-      "Building systems that are easy to maintain, scale, and extend with new ML features.",
-      "Writing well-documented APIs and data pipelines that other engineers can easily integrate with.",
-      "Deploying intelligent systems that combine backend reliability with predictive capabilities."
+      "Creating AI systems that produce measurable reductions in manual effort.",
+      "Keeping cloud services secure, observable, testable, and easy to evolve.",
+      "Connecting backend reliability with clear, useful application experiences."
     ],
     "workingStyle": {
       "label": "Working style",
-      "text": "I like work that is grounded in actual delivery: role-aware systems, sensible data flows, and interfaces that help reviewers understand the project quickly instead of fighting the layout."
+      "text": "I focus on the complete delivery path: clarify the workflow, design dependable services, integrate the right platforms, test thoroughly, and measure the operational result."
     },
     "stackNote": {
       "label": "Stack note",
-      "text": "The toolset lives in its own section so it reads more like a system view than a handful of loose tags."
+      "text": "The technologies below reflect tools explicitly documented in my résumé and professional project work."
     }
   },
   "stack": {
-    "title": "The tools I keep closest to the work.",
-    "copy": "Built like a dedicated section instead of loose badges: the core technologies, delivery tools, and product workflow essentials I return to most often.",
+    "title": "The tools behind my application and cloud work.",
+    "copy": "A focused view of the languages, frameworks, cloud services, integrations, and delivery tools used across production systems and research.",
     "sections": [
       {
-        "category": "Frontend",
-        "description": "UI frameworks, styling, and browser-focused tooling",
+        "category": "Application Development",
+        "description": "Frontend and full-stack languages used in production applications",
         "items": [
-          { "label": "React", "iconKey": "react" },
-          { "label": "Next.js", "iconKey": "nextjs" },
+          { "label": "Angular", "iconKey": "angular" },
           { "label": "TypeScript", "iconKey": "typescript" },
           { "label": "JavaScript", "iconKey": "javascript" },
           { "label": "HTML", "iconKey": "html" },
-          { "label": "CSS", "iconKey": "css" },
-          { "label": "Tailwind", "iconKey": "tailwind" },
-          { "label": "Bootstrap", "iconKey": "bootstrap" },
-          { "label": "MUI", "iconKey": "mui" },
-          { "label": "Vite", "iconKey": "vite" }
+          { "label": "CSS", "iconKey": "css" }
         ]
       },
       {
-        "category": "Backend",
-        "description": "Server-side runtime, frameworks, and languages",
+        "category": "Backend & AI",
+        "description": "Services, automation, agents, and systems programming",
         "items": [
+          { "label": "Python", "iconKey": "python" },
           { "label": "Java", "iconKey": "java" },
           { "label": "Spring Boot", "iconKey": "springboot" },
-          { "label": "Node.js", "iconKey": "nodejs" },
-          { "label": "Express.js", "iconKey": "expressjs" },
-          { "label": "Laravel", "iconKey": "laravel" },
-          { "label": "Inertia.js", "iconKey": "inertiajs" },
-          { "label": "Python", "iconKey": "python" },
-          { "label": "ASP.NET", "iconKey": "dotnet" },
-          { "label": "Nest.js", "iconKey": "nestjs" },
           { "label": "Flask", "iconKey": "flask" },
           { "label": "FastAPI", "iconKey": "fastapi" },
-          { "label": "PHP", "iconKey": "php" },
-          { "label": "Kotlin", "iconKey": "kotlin" },
-          { "label": "C#", "iconKey": "csharp" },
+          { "label": "ADK", "iconKey": "adk" },
+          { "label": "C", "iconKey": "c" },
           { "label": "C++", "iconKey": "cpp" }
         ]
       },
       {
-        "category": "Mobile",
-        "description": "Cross-platform and native mobile development",
+        "category": "Cloud & Data",
+        "description": "Cloud infrastructure, persistence, and enterprise data services",
         "items": [
-          { "label": "React Native", "iconKey": "reactnative" },
-          { "label": "Kotlin", "iconKey": "kotlin" },
-          { "label": "Android Studio", "iconKey": "androidstudio" }
-        ]
-      },
-      {
-        "category": "Databases & Data",
-        "description": "Data persistence, queries, and cloud storage",
-        "items": [
+          { "label": "Google Cloud", "iconKey": "gcp" },
+          { "label": "Cloud Run", "iconKey": "cloudrun" },
+          { "label": "Cloud Build", "iconKey": "cloudbuild" },
+          { "label": "Firestore", "iconKey": "firebase" },
+          { "label": "SQL", "iconKey": "sql" },
           { "label": "MySQL", "iconKey": "mysql" },
-          { "label": "PostgreSQL", "iconKey": "postgresql" },
-          { "label": "MongoDB", "iconKey": "mongodb" },
-          { "label": "SQLite", "iconKey": "sqlite" },
-          { "label": "Microsoft SQL Server", "iconKey": "microsoftsqlserver" },
-          { "label": "Firebase", "iconKey": "firebase" }
+          { "label": "PostgreSQL", "iconKey": "postgresql" }
         ]
       },
       {
-        "category": "Cloud & DevOps",
-        "description": "Infrastructure, containers, and deployment",
+        "category": "Delivery & Integrations",
+        "description": "Infrastructure, testing, geospatial, and enterprise integration tools",
         "items": [
-          { "label": "Microsoft Azure", "iconKey": "azure" },
-          { "label": "AWS", "iconKey": "aws" },
           { "label": "Docker", "iconKey": "docker" },
-          { "label": "GitHub Actions", "iconKey": "githubActions" },
-          { "label": "Vercel", "iconKey": "vercel" },
-          { "label": "Render", "iconKey": "render" }
-        ]
-      },
-      {
-        "category": "Development Tools",
-        "description": "IDE, version control, testing, and design",
-        "items": [
-          { "label": "VS Code", "iconKey": "vscode" },
-          { "label": "IntelliJ IDEA", "iconKey": "intellijidea" },
+          { "label": "CI/CD", "iconKey": "githubActions" },
           { "label": "Git", "iconKey": "git" },
-          { "label": "GitHub", "iconKey": "github" },
-          { "label": "Jest", "iconKey": "jest" },
-          { "label": "Vitest", "iconKey": "vitest" },
-          { "label": "ESLint", "iconKey": "eslint" },
-          { "label": "Prettier", "iconKey": "prettier" },
-          { "label": "Figma", "iconKey": "figma" },
+          { "label": "Firebase", "iconKey": "firebase" },
           { "label": "Postman", "iconKey": "postman" },
-          { "label": "Swagger", "iconKey": "swagger" },
-          { "label": "Jupyter Notebook", "iconKey": "jupyter" }
+          { "label": "ServiceNow", "iconKey": "servicenow" },
+          { "label": "Dialogflow CX", "iconKey": "dialogflow" },
+          { "label": "Google Drive API", "iconKey": "drive" },
+          { "label": "Google Maps API", "iconKey": "maps" },
+          { "label": "ArcGIS", "iconKey": "arcgis" },
+          { "label": "DeckGL", "iconKey": "deckgl" }
         ]
       }
     ]
   },
   "experienceSection": {
-    "title": "A timeline that reads like real progress, not filler.",
-    "copy": "My path combines education, leadership, and hands-on engineering work. The goal here is simple: make each step easy to scan, easy to understand, and clearly tied to what it added to the craft.",
+    "title": "A career shaped by measurable engineering outcomes.",
+    "copy": "From 5G systems and multilingual chatbots to cloud platforms and AI document automation, each role reflects a progression in ownership, architecture, and production impact.",
     "overviewLabels": {
       "currentRole": "Current role",
       "academicTrack": "Academic track",
-      "leadership": "Leadership"
+      "credentials": "Cloud credentials"
     }
   },
   "projectsSection": {
-    "title": "Case studies that explain the work without making you fight the layout.",
-    "copy": "This section is now built to scan cleanly: project context first, delivery choices next, and outcome last. That makes the work easier to review whether the demo is public or the product is still private.",
+    "title": "Research translated into a working health system.",
+    "copy": "A focused case study combining IoT sensing, machine learning, real-time health monitoring, and peer-reviewed publication.",
     "summaryLabels": {
-      "caseStudies": "Case studies",
-      "liveDemos": "Live demos",
-      "privateBuilds": "Private builds"
+      "caseStudies": "Case study",
+      "liveDemos": "Published reference",
+      "privateBuilds": "Source not provided"
     }
   },
   "contact": {
-    "title": "Let us make the next build feel stronger from the start.",
-    "copy": "If you have a product idea, SE opportunity, collaboration, or a portfolio review request, I am happy to talk through it with clear expectations and a focused approach.",
+    "title": "Let us talk about useful, intelligent systems.",
+    "copy": "For AI automation, cloud application, backend, or full-stack engineering opportunities, reach me directly by email, phone, LinkedIn, or GitHub.",
     "bestFitLabel": "Best fit for",
-    "bestFitText": "SE roles, focused freelance work, and teams that value both code quality and presentation.",
+    "bestFitText": "AI platform, cloud application, backend, and full-stack engineering roles and collaborations.",
     "contactItems": [
       {
         "label": "Email",
-        "value": "isuranga880@gmail.com",
-        "href": "mailto:isuranga880@gmail.com",
+        "value": "bhavanitanuboddi2001@gmail.com",
+        "href": "mailto:bhavanitanuboddi2001@gmail.com",
         "iconKey": "mail"
       },
       {
         "label": "Phone",
-        "value": "+94 77 173 2201",
-        "href": "https://wa.me/+94771732201",
+        "value": "+91 89782 68977",
+        "href": "tel:+918978268977",
         "iconKey": "phone"
       },
       {
         "label": "Location",
-        "value": "Matale, Sri Lanka",
-        "href": "https://www.google.com/maps/place/Matale",
+        "value": "Hyderabad, India",
+        "href": "https://www.google.com/maps/place/Hyderabad",
         "iconKey": "location"
       }
     ],
     "emailjs": {
-      "serviceId": "default_service",
-      "templateId": "template_cyhg4at",
-      "userId": "nDNf3GocCkCuyD2ii"
+      "serviceId": "",
+      "templateId": "",
+      "userId": ""
     },
     "form": {
       "label": "Message form",
       "title": "Start the conversation",
-      "copy": "Share the goal, the stage you are in, and what kind of help you need.",
+      "copy": "Share the opportunity, project, or problem you would like to discuss.",
       "fields": {
         "nameLabel": "Name",
         "namePlaceholder": "Your full name",
         "emailLabel": "Email",
         "emailPlaceholder": "name@email.com",
-        "messageLabel": "Project brief",
-        "messagePlaceholder": "Tell me what you are building, what stage you are in, and how I can help."
+        "messageLabel": "Message",
+        "messagePlaceholder": "Tell me about the opportunity or project."
       },
       "submitLabel": "Send message",
       "sendingLabel": "Sending message...",
-      "successMessage": "Message sent successfully. I will get back to you soon.",
-      "errorMessage": "Something went wrong while sending your message. Please try again later."
+      "successMessage": "Your email client is ready with the message details.",
+      "errorMessage": "Something went wrong. Please email me directly."
     }
   },
   "certifications": [
     {
-      "title": "Microsoft Certified: Azure Fundamentals (AZ-900)",
-      "issuer": "Microsoft",
-      "year": "2025",
-      "description": "Cloud fundamentals including Azure services, deployment models, and core cloud concepts.",
-      "href": "https://learn.microsoft.com/api/credentials/share/en-us/IsurangaBandara-1927/87FD3CE231A417EC?sharingId=1F4BB37D6AC03833",
+      "title": "Google Cloud Certified - Professional Cloud Developer",
+      "issuer": "Google Cloud",
+      "year": "",
+      "description": "Professional certification validating cloud-native application design, development, deployment, and operational practices on Google Cloud.",
+      "href": "https://www.credly.com/badges/28567dc5-e8d9-4a1e-a2b0-d1c6961850ef/public_url",
       "display": true
     },
     {
-      "title": "Career Essentials in GitHub Professional Certificate",
-      "issuer": "GitHub & LinkedIn Learning",
-      "year": "2024",
-      "description": "GitHub workflows, collaboration, and professional development practices.",
-      "href": "https://www.linkedin.com/learning/certificates/0023445596bd1868f5a203b0266c8b23500338aeb1b6eb01cc85b8a93f583632",
+      "title": "Google Cloud Certified - Professional Data Engineer",
+      "issuer": "Google Cloud",
+      "year": "",
+      "description": "Professional certification covering data processing systems, operationalization of machine learning, and secure data solutions on Google Cloud.",
+      "href": "https://www.credly.com/badges/74ed9f0c-de91-421f-b9f5-a59c1f0b99a0/public_url",
       "display": true
     },
     {
-      "title": "Docker Foundations Professional Certificate",
-      "issuer": "Docker, Inc",
-      "year": "2024",
-      "description": "Container fundamentals, Docker architecture, and containerization best practices.",
-      "href": "https://www.linkedin.com/learning/certificates/b4c81c3bd88b24aa490b78fe62d6c93e4cfb2e0ac59a81b2ea045a5fb024cdf7",
+      "title": "Google Cloud Certified - Generative AI Leader",
+      "issuer": "Google Cloud",
+      "year": "",
+      "description": "Certification focused on generative AI strategy, responsible adoption, and business transformation with Google Cloud technologies.",
+      "href": "https://www.credly.com/badges/7d069ff5-8649-48a8-a7a8-f42ad73d8c4a/public_url",
       "display": true
-    },
-    {
-      "title": ".NET Development for Beginners",
-      "issuer": "LinkedIn Learning",
-      "year": "2024",
-      "description": "Introduction to .NET framework and modern C# development patterns.",
-      "href": "https://www.linkedin.com/learning/certificates/8aa0ae9cf4de71ece1b1fe10e73bc7d0f27a11981458188b83ac41429ac539a8",
-      "display": false
-    },
-    {
-      "title": "Software Architecture Foundations",
-      "issuer": "LinkedIn Learning",
-      "year": "2024",
-      "description": "System design principles, architectural patterns, and scalable application design.",
-      "href": "https://www.linkedin.com/learning/certificates/765c88046f2961379e242c4c5faa7750b844e70e2628b47d4ca705246cf1840f",
-      "display": false
-    },
-    {
-      "title": "Build Your Own GPTs",
-      "issuer": "LinkedIn Learning",
-      "year": "2024",
-      "description": "Creating custom GPT models and AI-powered applications.",
-      "href": "https://www.linkedin.com/learning/certificates/765c88046f2961379e242c4c5faa7750b844e70e2628b47d4ca705246cf1840f",
-      "display": false
-    },
-    {
-      "title": "What Is Generative AI?",
-      "issuer": "LinkedIn Learning",
-      "year": "2024",
-      "description": "Fundamentals of generative AI, LLMs, and practical AI applications.",
-      "href": "https://www.linkedin.com/learning/certificates/1a3dcedc65471069bed5fb410b573db60d201d4262a6c80183d62376be404ae4",
-      "display": false
-    },
-    {
-      "title": "Responsible AI and Application Development",
-      "issuer": "LinkedIn Learning",
-      "year": "2024",
-      "description": "Ethical AI development and responsible practices in application design.",
-      "href": "https://www.linkedin.com/learning/certificates/6ab7b7c3ea1e97c93cd2b31d19b260870ec8fdffce28d1a6cd7eac7541e2a75c",
-      "display": false
     }
   ],
   "projects": [
     {
-      "title": "Hostel Management System",
-      "category": "Cloud-deployed management platform",
-      "year": "2026",
-      "imageKey": "hostel",
-      "summary": "Full-stack management system for handling tenant records, room allocation, and administrative operations with cloud deployment.",
-      "challenge": "Build a scalable system that manages multiple operational workflows while maintaining clean architecture and reliable deployments.",
-      "delivery": "Designed NestJS REST APIs with PostgreSQL, implemented Next.js frontend with TypeScript, containerized with Docker, and deployed on AWS EC2.",
-      "impact": "Demonstrated end-to-end full-stack delivery including automated CI/CD pipelines, comprehensive testing, and production-grade deployment.",
-      "stack": ["Next.js", "TypeScript", "NestJS", "PostgreSQL", "Docker", "AWS EC2", "GitHub Actions"],
-      "metrics": ["Scalable backend architecture", "Role-based access control", "Automated testing"],
-      "githubRepo": "https://github.com/AnushkaIsuranga/Hostel_Management_System",
-      "liveDemo": "https://hostel-management-system-frontend-seven.vercel.app/"
-    },
-    {
-      "title": "Duskwood Hospital Appointment System",
-      "category": "Full-stack healthcare platform",
-      "year": "2024",
-      "imageKey": "hospital",
-      "summary": "A production-style appointment and patient record platform designed to reduce friction for patients, doctors, and administrators.",
-      "challenge": "Build a system that coordinates booking flows, record management, reminders, and reporting without overwhelming different user roles.",
-      "delivery": "Designed a role-aware experience with appointment scheduling, patient records, admin controls, and automated reminder workflows.",
-      "impact": "Turned a complex hospital workflow into a more reliable digital system with clearer operational visibility.",
-      "stack": ["React", "Vite", "Tailwind", "JavaScript", "MySQL", "Spring Boot"],
-      "metrics": ["Role-based dashboards", "Appointment orchestration", "Automated email reminders"],
-      "githubRepo": "https://github.com/AnushkaIsuranga/Hospital_Appointment_System",
-      "liveDemo": "https://hospital-appointment-system-delta.vercel.app/"
-    },
-    {
-      "title": "IntMind AI Sobriety Coach",
-      "category": "AI-powered recovery companion mobile application",
-      "year": "2026",
-      "imageKey": "sobriety_app",
-      "summary": "An AI-powered mobile app designed to support alcohol recovery by helping users track moods, cravings, and triggers while receiving personalized guidance.",
-      "challenge": "Create a system that provides consistent support between therapy sessions while keeping the experience simple, private, and engaging for users in recovery.",
-      "delivery": "Built a cross-platform mobile app using React Native (Expo) with backend services in FastAPI and Express.js, integrating AI conversation workflows using LangChain and AutoGen.",
-      "impact": "Demonstrates how AI companions can support behavioral change through daily tracking, contextual conversations, and personalized suggestions.",
-      "stack": ["React Native", "Expo", "TypeScript", "FastAPI", "Express.js", "LangChain", "AutoGen", "NoSQL Database", "NativeWind"],
-      "metrics": ["Daily mood and craving tracking", "AI companion chat", "Personalized suggestions", "Smart reminders and progress tracking"],
+      "title": "Stress Classification and Vital Signs Forecasting",
+      "category": "IoT healthcare and machine learning research",
+      "year": "2021-2022",
+      "imageKey": "",
+      "summary": "An IoT-based health monitoring system that combines sensor data, analytics, and machine learning to track patient vitals and support proactive healthcare decisions.",
+      "challenge": "Continuously monitor health signals while identifying stress and forecasting critical vital signs from real-time sensor data.",
+      "delivery": "Built the analytics and machine-learning workflow in Python with Firestore, using a hypertuned random forest for stress classification and neural networks for pulse and SpO2 forecasting.",
+      "impact": "Achieved 94.3% stress-classification accuracy and produced an IEEE-published system for real-time health monitoring and vital-sign forecasting.",
+      "stack": ["Machine Learning", "Python", "Firestore", "IoT", "Random Forest", "Neural Networks"],
+      "metrics": ["94.3% classification accuracy", "Pulse and SpO2 forecasting", "IEEE publication"],
       "githubRepo": "",
-      "liveDemo": ""
-    },
-    {
-      "title": "Asteria Desk Hotel Booking System",
-      "category": "Web-based hospitality management system",
-      "year": "2026",
-      "imageKey": "hotel_booking",
-      "summary": "A Laravel-based hotel booking platform built to learn MVC architecture, covering reservations, room inventory, staff access, and operational dashboards.",
-      "challenge": "Structure a real-world hotel management workflow with clear separation of concerns, role-based access, and maintainable data handling across bookings, rooms, and team accounts.",
-      "delivery": "Built the system with Laravel, Inertia.js, React, and TypeScript using an MVC pattern for authentication, CRUD workflows, dashboard reporting, and hotel operations management.",
-      "impact": "Demonstrated how a full-stack Laravel application can stay organized, scalable, and user-friendly while handling core hospitality operations in one place.",
-      "stack": ["PHP", "Laravel", "Inertia.js", "React", "TypeScript", "SQLite", "Tailwind CSS", "Render", "Vite", "MVC Architecture"],
-      "metrics": ["Role-based staff/admin access", "Booking and inventory management", "Operational dashboard", "Responsive UI"],
-      "githubRepo": "https://github.com/AnushkaIsuranga/hotel_booking_system",
-      "liveDemo": "https://hotel-booking-system-ihcv.onrender.com/"
-    },
-    {
-      "title": "Dilthira Stock Portal",
-      "category": "Operations and reporting tool",
-      "year": "2023",
-      "imageKey": "stockPortal",
-      "summary": "A stock and transaction portal for a pepper co-op focused on clarity, reporting, and day-to-day inventory visibility.",
-      "challenge": "Create a straightforward administrative tool for stock, income, and transaction tracking using foundational web technologies.",
-      "delivery": "Built inventory, transaction, and user-management flows with reporting support for small-scale business operations.",
-      "impact": "Gave the co-op a more structured digital layer for stock accuracy and business reporting.",
-      "stack": ["HTML", "CSS", "JavaScript", "MySQL", "PHP", "Bootstrap"],
-      "metrics": ["Transaction records", "Stock visibility", "Admin reporting workflows"],
-      "githubRepo": "https://github.com/AnushkaIsuranga/Stock_Portal_for_Spice_Co.",
-      "liveDemo": ""
-    },
-    {
-      "title": "Horizon News Mobile App",
-      "category": "Mobile editorial product",
-      "year": "2024",
-      "imageKey": "horizon",
-      "summary": "A newsroom-oriented mobile app where readers, editors, and reporters each get workflows tailored to their role.",
-      "challenge": "Balance article publishing, account management, editorial review, and drafting inside a mobile-first product.",
-      "delivery": "Created role-specific capabilities for reading, rating, managing content, and drafting reports across the news lifecycle.",
-      "impact": "Showed how editorial tools can feel structured and intuitive on mobile while still supporting complex permissions.",
-      "stack": ["Kotlin", "MongoDB", "SQLite", "Express.js", "Node.js", "REST APIs"],
-      "metrics": ["Reporter draft workflow", "Editor moderation tools", "Mobile-first publishing"],
-      "githubRepo": "https://github.com/AnushkaIsuranga/Horizon_News_App",
-      "liveDemo": ""
-    },
-    {
-      "title": "EnviroSense Smog Tower System",
-      "category": "IoT and AI monitoring system",
-      "year": "2025",
-      "imageKey": "envirosense",
-      "summary": "An air-quality monitoring and purification concept combining IoT capture, forecasting, and environmental dashboards.",
-      "challenge": "Translate real-world environmental data into something measurable, forecastable, and useful for public monitoring.",
-      "delivery": "Connected sensing, forecasting, and cloud-based monitoring into a system that surfaces air-quality performance in real time.",
-      "impact": "Positioned environmental data as a decision-making tool rather than just a stream of raw measurements.",
-      "stack": ["Python", "Firebase", "C++", "Node.js", "Machine Learning", "IoT"],
-      "metrics": ["Real-time air monitoring", "Forecasting layer", "Cloud-connected reporting"],
-      "githubRepo": "https://github.com/AnushkaIsuranga/Smog_Towers_Project",
-      "liveDemo": "https://enviro-sense-nine.vercel.app/"
+      "liveDemo": "https://ieeexplore.ieee.org/document/9849018",
+      "linkLabel": "IEEE publication"
     }
   ],
-  "achievements": [
-    {
-      "title": "Batch Top – Diploma in Computer System Designing",
-      "year": "2024",
-      "description": "Achieved top position in the Diploma batch through consistent academic excellence."
-    },
-    {
-      "title": "Vice President – Sylvestrian Technology Society",
-      "year": "2023-2025",
-      "description": "Led technology initiatives including workshops, mentoring, and community building."
-    },
-    {
-      "title": "Young Achiever Award",
-      "year": "2019",
-      "description": "Recognized as Young Achiever at ESOFT Diploma Award Ceremony."
-    }
-  ],
+  "achievements": [],
   "experiences": [
     {
-      "period": "Apr 2025 - Apr 2026",
+      "period": "Apr 2026 - Present",
       "type": "Work",
-      "title": "Bitzify",
-      "role": "Intern Full-Stack Software Developer",
-      "summary": "Developing production full-stack applications using modern web technologies. Designed backend systems for inventory and POS platforms, refactored frontend architecture, and contributed to payment system integration.",
-      "focus": ["Production development", "Frontend architecture", "System design"]
+      "title": "Egen, Hyderabad",
+      "role": "App Engineer",
+      "summary": "Delivered SowCraft Agent, an AI automation product that transforms meeting notes and Google Drive uploads into populated SOW templates, reducing manual effort by 60%. Built JSON-based gap analysis, automated template copying, context-aware insertion, and dynamic table updates with 85% requirement-identification accuracy. Upgraded the solution from Gemini 2.5 Flash to Pro, designed scalable GCP infrastructure, and established production testing protocols.",
+      "focus": ["AI agents", "Document intelligence", "Google Cloud", "Google Drive API"]
     },
     {
-      "period": "Jul 2025 - Present",
+      "period": "Aug 2024 - Mar 2026",
+      "type": "Work",
+      "title": "Egen, Hyderabad",
+      "role": "Senior Associate App Engineer",
+      "summary": "Developed Spring Boot APIs and Angular integrations that improved UI-server synchronization by 30%. Implemented Identity-Aware Proxy, supported an Angular 9-to-16 upgrade, built ArcGIS and DeckGL species-movement visualizations that improved Wildlife Tracker functionality by 40%, and created a Cloud Build CI/CD pipeline that reduced deployment time by 40%.",
+      "focus": ["Angular and Spring Boot", "Identity-Aware Proxy", "ArcGIS and DeckGL", "Cloud Build"]
+    },
+    {
+      "period": "Jul 2022 - Jul 2024",
+      "type": "Work",
+      "title": "Egen, Hyderabad",
+      "role": "Associate App Engineer",
+      "summary": "Modernized a Java 8 application to Java 21 for a 25% performance and compatibility improvement, deployed Angular-Spring Boot services with Docker and Cloud Run to reduce downtime by 20%, and built ServiceNow, Dialogflow CX, Google Maps, and Discovery Engine integrations that improved ticket workflows, user engagement, and search accuracy.",
+      "focus": ["Java modernization", "Docker and Cloud Run", "ServiceNow integrations", "Google Cloud APIs"]
+    },
+    {
+      "period": "Jan 2022 - Jun 2022",
+      "type": "Work",
+      "title": "Egen, Hyderabad",
+      "role": "Software Engineer Intern",
+      "summary": "Developed a Python and Dialogflow chatbot for driver and vehicle services across four languages, increasing engagement by 25%. Improved testing efficiency by 30% with automated Botium test generation and execution, and resolved all assigned VDH-VAxMax Angular, Python, and PostgreSQL service tickets for vaccine-management workflows.",
+      "focus": ["Python and Dialogflow", "Multilingual chatbots", "Botium automation", "Angular and PostgreSQL"]
+    },
+    {
+      "period": "May 2021 - Jul 2021",
+      "type": "Work",
+      "title": "Centre of Excellence in Wireless Technology, Chennai",
+      "role": "Software Engineer Intern",
+      "summary": "Engineered a C++ QoS enforcement module for a 5G environment, improving network-traffic management and service-quality controls while developing hands-on knowledge of 5G architecture, procedure call flows, and QoS models.",
+      "focus": ["C++", "5G architecture", "QoS enforcement", "Network systems"]
+    },
+    {
+      "period": "Aug 2018 - May 2022",
       "type": "Education",
-      "title": "National Institute of Business Management",
-      "role": "BSc in Computer Science with Artificial Intelligence (Reading)",
-      "summary": "Undergraduate program focused on computer science fundamentals, artificial intelligence, and modern software engineering practices.",
-      "focus": ["AI/ML concepts", "System design", "Advanced programming"]
-    },
-    {
-      "period": "Mar 2024 - Jun 2025",
-      "type": "Education",
-      "title": "National Institute of Business Management",
-      "role": "Higher National Diploma in Software Engineering",
-      "summary": "Developed practical experience across full-stack delivery, OOP, APIs, databases, and collaborative software workflows.",
-      "focus": ["Full-stack delivery", "APIs", "Databases"]
-    },
-    {
-      "period": "Jan 2023 - Mar 2024",
-      "type": "Education",
-      "title": "National Institute of Business Management",
-      "role": "Diploma in Computer System Designing",
-      "summary": "Built core foundations in software design, programming, systems thinking, and technical problem-solving.",
-      "focus": ["System design", "Programming", "Problem-solving"]
-    },
-    {
-      "period": "Jun 2023 - Jan 2025",
-      "type": "Leadership",
-      "title": "St. Sylvester's College",
-      "role": "Vice President, Technology Society",
-      "summary": "Led technology awareness initiatives, peer mentoring, workshops, and collaboration across student communities.",
-      "focus": ["Mentoring", "Workshops", "Community building"]
-    },
-    {
-      "period": "Apr 2023 - May 2024",
-      "type": "Leadership",
-      "title": "St. Sylvester's College",
-      "role": "Committee Member, IT Society",
-      "summary": "Supported event planning, competition organizing, and ICT community building through hands-on coordination.",
-      "focus": ["Event planning", "Competitions", "ICT support"]
-    },
-    {
-      "period": "May 2022 - Aug 2022",
-      "type": "Education",
-      "title": "National Institute of Business Management",
-      "role": "Certificate in Software Engineering",
-      "summary": "Strengthened core programming, algorithms, and systems fundamentals through project-based learning.",
-      "focus": ["SE foundation", "Best practices", "Projects"]
-    },
-    {
-      "period": "Feb 2017 - Jun 2018",
-      "type": "Education",
-      "title": "ESOFT Metro Campus, Matale",
-      "role": "DiTEC Diploma in Information Technology",
-      "summary": "Built an early foundation in ICT, productivity tools, hardware concepts, networking basics, and introductory programming.",
-      "focus": ["ICT foundation", "Software fundamentals", "Intro programming"]
+      "title": "Indian Institute of Information Technology, Sri City",
+      "role": "B.Tech in Electronics & Communication Engineering",
+      "summary": "Completed a Bachelor of Technology in Electronics and Communication Engineering with a GPA of 8.92/10.",
+      "focus": ["GPA 8.92/10", "Electronics", "Communication systems"]
     }
   ]
 }

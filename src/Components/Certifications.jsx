@@ -29,8 +29,8 @@ export default function Certifications() {
 
             <Reveal delay={0.1}>
               <p className="section-copy mx-auto max-w-2xl">
-                Industry-recognized certifications in cloud platforms, DevOps, and modern software
-                architecture.
+                Google Cloud credentials spanning application development, data engineering, and
+                generative AI leadership.
               </p>
             </Reveal>
           </div>

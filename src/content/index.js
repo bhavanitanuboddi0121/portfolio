@@ -1,21 +1,6 @@
-import HMS from '../assets/HMS.webp'
-import HostelApp from '../assets/HostelApp.webp'
-import horizon from '../assets/HorizonNewsApp.webp'
-import envirosense from '../assets/enviro_sense.webp'
-import stockPortal from '../assets/stock_p.webp'
 import portfolio from './portfolio.json'
-import hotel_booking from '../assets/hotel_booking.webp'
-import sobriety_app from '../assets/sobriety_app.webp'
 
-const projectImages = {
-  hostel: HostelApp,
-  hospital: HMS,
-  stockPortal,
-  horizon,
-  envirosense,
-  hotel_booking,
-  sobriety_app
-}
+const projectImages = {}
 
 const getStartYear = (period = '') => {
   const match = period.match(/\b\d{4}\b/)

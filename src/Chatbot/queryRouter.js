@@ -35,7 +35,7 @@ export function detectQueryType(question = '') {
     return 'contact'
   }
 
-  if (includesAny(q, ['who is', 'about him', 'about anushka', 'overview', 'profile'])) {
+  if (includesAny(q, ['who is', 'about bhavani', 'overview', 'profile'])) {
     return 'profile'
   }
 

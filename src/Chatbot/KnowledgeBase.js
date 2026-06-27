@@ -231,8 +231,8 @@ const SEMANTIC_SYNONYMS = {
 }
 
 const DOMAIN_KEYWORDS = new Set([
-  'anushka',
-  'isuranga',
+  'bhavani',
+  'tanuboddi',
   'portfolio',
   'project',
   'projects',

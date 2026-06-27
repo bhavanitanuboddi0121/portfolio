@@ -5,7 +5,6 @@ import { motion } from 'motion/react'
 import MobileParallax from '../Animation/MobileParallax'
 import Reveal from '../Animation/Reveal'
 import StaggerText from '../Animation/StaggerText'
-import portrait from '../assets/my_pic.webp'
 import { portfolioStats, siteContent, socialLinks } from '../content'
 
 const socialIconMap = {
@@ -119,13 +118,15 @@ export default function Hero() {
               <div className="editorial-card overflow-hidden rounded-[2rem] p-4 sm:p-5">
                 <div className="relative overflow-hidden rounded-[1.6rem] border border-white/10">
                   <MobileParallax className="relative" offset={64} scale={1.14}>
-                    <img
-                      src={portrait}
-                      alt={`Portrait of ${siteContent.site.name}`}
-                      className="h-[22rem] w-full object-cover sm:h-[28rem]"
-                      loading="lazy"
-                      decoding="async"
-                    />
+                    <div
+                      className="flex h-[22rem] w-full items-center justify-center bg-[radial-gradient(circle_at_24%_20%,rgba(56,189,248,0.3),transparent_30%),radial-gradient(circle_at_78%_70%,rgba(139,92,246,0.35),transparent_32%),linear-gradient(145deg,#07111f,#111b3e_55%,#25124b)] sm:h-[28rem]"
+                      role="img"
+                      aria-label={`${siteContent.site.name} monogram`}
+                    >
+                      <div className="flex h-44 w-44 items-center justify-center rounded-full border border-white/15 bg-white/[0.06] text-6xl font-semibold tracking-[-0.08em] text-white shadow-2xl shadow-indigo-950/60 backdrop-blur-xl sm:h-52 sm:w-52 sm:text-7xl">
+                        {siteContent.site.initials}
+                      </div>
+                    </div>
                   </MobileParallax>
 
                   <div className="hero-image-overlay absolute inset-x-0 bottom-0 p-6">

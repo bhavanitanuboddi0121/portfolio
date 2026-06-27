@@ -10,8 +10,9 @@ const projectShape = PropTypes.shape({
   challenge: PropTypes.string.isRequired,
   delivery: PropTypes.string.isRequired,
   githubRepo: PropTypes.string.isRequired,
-  image: PropTypes.string.isRequired,
+  image: PropTypes.string,
   impact: PropTypes.string.isRequired,
+  linkLabel: PropTypes.string,
   liveDemo: PropTypes.string,
   metrics: PropTypes.arrayOf(PropTypes.string).isRequired,
   stack: PropTypes.arrayOf(PropTypes.string).isRequired,
@@ -19,6 +20,40 @@ const projectShape = PropTypes.shape({
   title: PropTypes.string.isRequired,
   year: PropTypes.string.isRequired,
 })
+
+function ProjectVisual({ project, className }) {
+  if (project.image) {
+    return (
+      <img
+        src={project.image}
+        alt={project.title}
+        className={`${className} object-cover`}
+        loading="lazy"
+        decoding="async"
+      />
+    )
+  }
+
+  return (
+    <div
+      className={`${className} flex items-center justify-center bg-[radial-gradient(circle_at_22%_20%,rgba(56,189,248,0.32),transparent_30%),radial-gradient(circle_at_78%_74%,rgba(167,139,250,0.38),transparent_34%),linear-gradient(145deg,#07111f,#13214b_55%,#271348)] p-8 text-center`}
+      role="img"
+      aria-label={`Visual placeholder for ${project.title}`}
+    >
+      <div>
+        <p className="metric-label text-sky-200">ML x IoT</p>
+        <p className="mt-4 max-w-xs text-2xl font-semibold leading-tight text-white">
+          Health intelligence from real-time signals
+        </p>
+      </div>
+    </div>
+  )
+}
+
+ProjectVisual.propTypes = {
+  className: PropTypes.string.isRequired,
+  project: projectShape.isRequired,
+}
 
 function ProjectCaseStudy({ project, index }) {
   const imageOnRight = index % 2 !== 0
@@ -38,13 +73,7 @@ function ProjectCaseStudy({ project, index }) {
         <div className="xl:hidden">
           <div className="relative h-[26rem] overflow-hidden rounded-t-[2rem]">
             <MobileParallax className="absolute inset-0" offset={68} scale={1.16}>
-              <img
-                src={project.image}
-                alt={project.title}
-                className="h-full w-full object-cover"
-                loading="lazy"
-                decoding="async"
-              />
+              <ProjectVisual project={project} className="h-full w-full" />
             </MobileParallax>
 
             <div className="absolute inset-0 bg-gradient-to-br from-sky-500/26 via-indigo-500/12 to-violet-500/24 mix-blend-screen" />
@@ -131,7 +160,7 @@ function ProjectCaseStudy({ project, index }) {
                     whileTap={{ scale: 0.98 }}
                   >
                     <FiArrowUpRight />
-                    Live demo
+                    {project.linkLabel || 'Live demo'}
                   </motion.a>
                 ) : (
                   <span className="eyebrow-chip">Private build</span>
@@ -146,12 +175,9 @@ function ProjectCaseStudy({ project, index }) {
             className={`xl:w-[410px] xl:shrink-0 ${imageOnRight ? 'xl:order-last' : 'xl:order-first'}`}
           >
             <div className="relative h-full overflow-hidden rounded-[1.6rem] border border-indigo-200/20">
-              <img
-                src={project.image}
-                alt={project.title}
-                className="h-[18rem] w-full object-cover sm:h-[22rem] xl:h-full"
-                loading="lazy"
-                decoding="async"
+              <ProjectVisual
+                project={project}
+                className="h-[18rem] w-full sm:h-[22rem] xl:h-full"
               />
               <div className="absolute inset-0 bg-gradient-to-br from-sky-500/28 via-indigo-500/14 to-violet-500/28 mix-blend-screen" />
               <div className="project-image-overlay absolute inset-0" />
@@ -239,7 +265,7 @@ function ProjectCaseStudy({ project, index }) {
                     whileTap={{ scale: 0.98 }}
                   >
                     <FiArrowUpRight />
-                    Live demo
+                    {project.linkLabel || 'Live demo'}
                   </motion.a>
                 ) : (
                   <span className="eyebrow-chip">Private build</span>

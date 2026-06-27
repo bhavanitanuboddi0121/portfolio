@@ -3,15 +3,12 @@ import { motion, useScroll, useSpring, useTransform } from 'motion/react'
 import MobileParallax from '../Animation/MobileParallax'
 import Reveal from '../Animation/Reveal'
 import {
-  currentLeadership,
   currentWork,
   experienceCounts,
   experiencesData,
   latestEducation,
   siteContent,
 } from '../content'
-
-const experienceTypes = ['Work', 'Education', 'Leadership']
 
 function ShootingStarLine({ timelineRef }) {
   const canvasRef = useRef(null)
@@ -190,10 +187,14 @@ function ShootingStarLine({ timelineRef }) {
 export default function Experience() {
   const timelineRef = useRef(null)
 
-  const summaryCards = experienceTypes.map((type) => ({
-    label: type,
-    value: String(experienceCounts[type] ?? 0),
-  }))
+  const summaryCards = [
+    { label: 'Work roles', value: String(experienceCounts.Work ?? 0) },
+    { label: 'Education', value: String(experienceCounts.Education ?? 0) },
+    {
+      label: 'Certifications',
+      value: String(siteContent.certifications?.filter((item) => item.display).length ?? 0),
+    },
+  ]
 
   const overviewPanels = [
     {
@@ -207,9 +208,9 @@ export default function Experience() {
       detail: latestEducation?.title ?? 'Formal study path',
     },
     {
-      label: siteContent.experienceSection.overviewLabels.leadership,
-      value: currentLeadership?.role ?? 'Technology leadership',
-      detail: currentLeadership?.title ?? 'Community contribution',
+      label: siteContent.experienceSection.overviewLabels.credentials,
+      value: '3 Google Cloud certifications',
+      detail: 'Cloud Developer, Data Engineer, and Generative AI Leader',
     },
   ]
 

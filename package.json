@@ -1,6 +1,6 @@
 {
-  "homepage": "https://anushkaisuranga.github.io",
-  "name": "anushkaisuranga-github-io",
+  "homepage": "https://bhavanitanuboddi0121.github.io/portfolio/",
+  "name": "bhavani-tanuboddi-portfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -20,7 +20,6 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "anushkaisuranga-github-io": "file:",
     "axios": "^1.7.6",
     "baseline-browser-mapping": "^2.10.9",
     "caniuse-lite": "^1.0.30001780",

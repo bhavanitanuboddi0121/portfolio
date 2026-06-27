@@ -6,8 +6,8 @@ import { resolveInitialTheme } from './theme'
 import './index.css'
 
 const initialTheme = resolveInitialTheme()
-const siteName = import.meta.env.VITE_SITE_NAME || 'Anushka Isuranga'
-const siteEmail = 'isuranga880@gmail.com'
+const siteName = import.meta.env.VITE_SITE_NAME || 'Bhavani Tanuboddi'
+const siteEmail = 'bhavanitanuboddi2001@gmail.com'
 
 const consoleBanner = [
   '          █████╗        ██╗',
